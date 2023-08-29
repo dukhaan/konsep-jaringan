@@ -67,7 +67,7 @@ Dari capture Packet Counter di atas, dapat disimpulkan bahwa ada 4 paket HTTP ya
 
 <div align="center">
 <img src="assets/http_Throughput.png">
-<p><strong>Gambar:</strong> 3.1 Throughput </p>
+<p><strong>Gambar:</strong> 3.1 throughput </p>
 </div>
 
  Merujuk pada jumlah data yang berhasil ditransfer melalui jaringan dalam waktu tertentu. Anda dapat menggunakan Wireshark untuk mengamati throughput dalam berbagai skenario, seperti transfer file atau aktivitas web.
