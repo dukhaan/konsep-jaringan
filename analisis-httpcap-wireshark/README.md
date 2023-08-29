@@ -66,7 +66,7 @@ Dari capture Packet Counter di atas, dapat disimpulkan bahwa ada 4 paket HTTP ya
 ## 3. Troughput
 
 <div align="center">
-<img src="assets/http_throughput.png">
+<img src="assets/http_Throughput.png">
 <p><strong>Gambar:</strong> 3.1 Throughput </p>
 </div>
 
