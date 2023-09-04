@@ -8,14 +8,14 @@ Dalam penggunaannya, Telnet memungkinkan pengguna untuk terhubung ke perangkat j
 
 #### Contoh Wireshark dari protokol jaringan Telnet:
 <p align="center">
-        <img src="Assets/telnet_cao.png" alt="Gambar" height="500" />
+        <img src="assets/telnet_cao.png" alt="Gambar" height="500" />
 </p>
 
 #### Analisis:
 Dari sini, kita dapat mengetahui alamat IP pengguna (192.168.0.2) dan alamat IP server/PC yang diakses dari jarak jauh (192.168.0.1), serta port yang digunakan oleh pengguna (1550) dan server/PC yang diakses (23) menggunakan protokol TCP untuk layanan Telnet.
 
 <p align="center">
-        <img src="Assets/telnet_cap.png" alt="Gambar" width="500" />
+        <img src="assets/telnet_cap.png" alt="Gambar" width="500" />
 </p>
 
 Di aplikasi Wireshark, kita dapat melihat aliran TCP atau apa yang terjadi dalam protokol TCP. Warna merah menunjukkan data yang dikirim oleh pengguna (yang mengakses server/PC jarak jauh), sementara warna biru menunjukkan balasan dari server/PC yang diakses.
@@ -26,14 +26,14 @@ DNS adalah singkatan dari "Domain Name System" (Sistem Nama Domain). Ini adalah 
 
 #### Contoh Wireshark dari DNS:
 <p align="center">
-        <img src="Assets/dns_cap.png" alt="Gambar" height="500" />
+        <img src="assets/dns_cap.png" alt="Gambar" height="500" />
 </p>
 
 #### Analisis:
 Dari data di atas, kita dapat mengetahui alamat IP internet dari client dan server (client: 192.168.170.8, server: 192.168.170.20) serta port yang digunakan oleh client (32795) dan server (53).
 
 <p align="center">
-        <img src="Assets/dns_cap1.png" alt="Gambar" width="500" />
+        <img src="assets/dns_cap1.png" alt="Gambar" width="500" />
 </p>
 
 Sama seperti Telnet, dalam analisis aliran UDP, kita dapat melihat apa yang terjadi pada sisi client (warna merah) dan sisi server (warna biru).
@@ -44,7 +44,7 @@ HTTP adalah singkatan dari "Hypertext Transfer Protocol" (Protokol Transfer Hipe
 <a id="http_analyze"></a>
 #### Contoh Wireshark dari HTTP:
 <p align="center">
-        <img src="Assets/http_cap.png" alt="Gambar" height="500" />
+        <img src="assets/http_cap.png" alt="Gambar" height="500" />
 </p>
 
 #### Analisis:
@@ -57,7 +57,7 @@ IP Server: 65.208.228.223
 Kita juga dapat melihat bahwa ada proses enkoding data, seperti gambar XML dan lainnya.
 
 <p align="center">
-        <img src="Assets/http_cap1.png" alt="Gambar" width="500" />
+        <img src="assets/http_cap1.png" alt="Gambar" width="500" />
 </p>
 
 Header dari client dikirim (warna merah) dan diterima oleh server (warna biru). Status "HTTP/1.200 OK" menunjukkan bahwa permintaan berhasil, dan halaman web ditampilkan.
@@ -65,7 +65,7 @@ Header dari client dikirim (warna merah) dan diterima oleh server (warna biru). 
 <a id="tcp_header"></a>
 ## Header TCP
 <p align="center">
-        <img src="Assets/tcp_header.avif" alt="Gambar" height="500" />
+        <img src="assets/tcp_header.avif" alt="Gambar" height="500" />
 </p>
 
 Header TCP (Transmission Control Protocol) adalah bagian dari struktur data yang digunakan untuk mengemas dan mengirimkan data melalui koneksi TCP dalam jaringan komputer. TCP adalah protokol yang berorientasi pada koneksi dan dapat diandalkan, memastikan pengiriman data yang akurat, terurut, dan tanpa kerusakan antara pengirim dan penerima. Berikut adalah beberapa bidang utama yang ada dalam header TCP:
@@ -104,7 +104,7 @@ Header TCP memainkan peran penting dalam mengatur komunikasi antara komputer pen
 <a id="udp_header"></a>
 ## Header UDP
 <p align="center">
-        <img src="Assets/udp_header.png" alt="Gambar" height="500" />
+        <img src="assets/udp_header.png" alt="Gambar" height="500" />
 </p>
 
 Header UDP (User Datagram Protocol) adalah bagian dari struktur data yang digunakan untuk mengemas dan mengirimkan data dalam koneksi UDP dalam jaringan komputer. UDP adalah protokol tanpa koneksi yang lebih sederhana daripada TCP, yang berarti tidak ada pengiriman ulang atau mekanisme pengakuan. Ini membuat UDP lebih cepat, tetapi juga lebih tidak andal dibandingkan dengan TCP. Berikut adalah beberapa bidang utama yang ada dalam header UDP:
@@ -122,7 +122,7 @@ Header UDP cukup sederhana dan tidak mengandung banyak informasi tambahan sepert
 <a id="ip_header"></a>
 ## Header IP
 <p align="center">
-        <img src="Assets/IP_header.png" alt="Gambar" height="300" />
+        <img src="assets/IP_header.png" alt="Gambar" height="300" />
 </p>
 Header IP (Internet Protocol) adalah bagian dari struktur data yang digunakan untuk mengemas dan mengarahkan paket data dalam jaringan komputer. IP adalah protokol yang mendasari jaringan internet, dan bertanggung jawab untuk mengirimkan paket data dari sumber ke tujuan melalui jaringan yang mungkin terdiri dari beberapa perangkat dan rute. Berikut adalah beberapa bidang utama yang ada dalam header IP:
 
