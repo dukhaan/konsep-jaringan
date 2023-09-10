@@ -1,8 +1,8 @@
     Nama		            : Dukhaan Kamimpangan
-    NRP		                : 3122600003
+    NRP                 : 3122600003
     Kelas		            : 2 D4 IT A
     Mata Kuliah	            : Konsep Jaringan
-    Dosen Pengampu	        : Dr. Ferry Astika Saputra S.T., M.Sc
+    Dosen Pengampu	            : Dr. Ferry Astika Saputra S.T., M.Sc
 
 # SOCKET PROGRAMMING COMMUNICATION
 
