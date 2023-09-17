@@ -1,4 +1,4 @@
-    Nama            : Diah Aulia Kusuma Putri
+    Nama            : Dukhaan Kamimpangan
     NRP             : 3122600003
     Kelas           : 2 D4 IT A
     Mata Kuliah     : Konsep Jaringan
